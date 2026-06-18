@@ -1,0 +1,24 @@
+{
+    "Areas": [
+		{ 	"AreaName": "Kozara-Radar-Station", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 10920, 0, 6575 ],
+				"Radius": 200,
+				"PosHeight": 15,
+				"NegHeight": 20,
+				"InnerPartDist": 80,
+				"OuterOffset": 30, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		}
+    ],
+
+	"SafePositions":[]
+}

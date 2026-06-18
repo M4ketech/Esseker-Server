@@ -132,6 +132,10 @@
     <pos x="14800" z="8700" a="0" />
   </event>
   <event name="StaticChristmasTree"></event>
+  <event name="StaticContaminatedArea">
+		<zone smin="0" smax="0" dmin="1" dmax="1" r="75" />
+		<pos x="9945.000000" z="4876.000000" />
+	</event>
   <event name="Loot">
     <pos x="12195" z="9055" a="0" />
     <pos x="12230" z="9225" a="0" />
