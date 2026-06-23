@@ -3815,7 +3815,7 @@
         <usage name="Hunting"/>
     </type>
 	<type name="CanvasBag_Medical">
-        <nominal>5/nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
