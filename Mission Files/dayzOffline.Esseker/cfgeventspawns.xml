@@ -60,6 +60,8 @@
 	<event name="VehicleOffroad02"></event>
 	<event name="StaticContainerLocked">
 		<pos x="11840.90" z="7880.30" a="0.000" />
+		<pos x="10911.90" z="6564.70" a="0.000" />
+		<pos x="10955.20" z="5212.90" a="0.000" />
 	</event>
 	<event name="StaticPoliceCar">
 		<pos x="19115" z="1355" a="0" />
