@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <eventposdef>
 	<event name="VehicleCivilianSedan">
-		<pos x="13565" z="12610" a="0" />
-		<pos x="14255" z="12160" a="0" />
 		<pos x="14900" z="10520" a="0" />
 		<pos x="15115" z="10060" a="0" />
 		<pos x="15880" z="9700" a="0" />
@@ -57,13 +55,17 @@
 	</event>
 	<event name="Loot" />
 	<event name="VehicleOffroadHatchback"></event>
-	<event name="VehicleOffroad02"></event>
+	<event name="VehicleOffroad02">
+		<pos x="7746.40" z="10075.40" a="0.000" />
+		<pos x="7698.70" z="7596.30" a="0.000" />
+	</event>
 	<event name="StaticContainerLocked">
 		<pos x="11840.90" z="7880.30" a="0.000" />
 		<pos x="10911.90" z="6564.70" a="0.000" />
 		<pos x="10955.20" z="5212.90" a="0.000" />
 		<pos x="9540.80" z="4801.60" a="0.000" />
 		<pos x="8422.80" z="5290.20" a="0.000" />
+		<pos x="8251.80" z="5496.90" a="0.000" />
 	</event>
 	<event name="StaticPoliceCar">
 		<pos x="19115" z="1355" a="0" />
@@ -71,13 +73,18 @@
 		<pos x="19125" z="1380" a="0" />
 	</event>
 	<event name="ItemPlanks"></event>
-	<event name="VehicleTruck01"></event>
+	<event name="VehicleTruck01">
+		<pos x="8154.20" z="5676.40" a="0" />
+		<pos x="8310.10" z="5447.20" a="0" />
+	</event>
 	<event name="VehicleBoat"></event>
 	<event name="StaticAirplaneCrate">
 		<zone smin="0" smax="0" dmin="0" dmax="0" r="0" />
 		<pos x="11947.70" z="7973.40" />
 		<pos x="8598.40" z="5704.80" />
 		<pos x="6499.60" z="5430.50" />
+		<pos x="8976.20" z="7889" />
+		<pos x="8590.70" z="5470.20" />
 	</event>
 	<event name="StaticAmbulance">
 	<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
@@ -86,6 +93,8 @@
 		<pos x="11169.40" z="5490.50" a="0.000" />
 		<pos x="11609.20" z="6367.20" a="0.000" />
 		<pos x="8818.40" z="6548.10" a="0.000" />
+		<pos x="11165.60" z="7786.30" a="0.000" />
+		<pos x="8038.80" z="8678.70" a="0.000" />
 	</event>
 	<event name="VehicleTransitBus" />
     <event name="InfectedVillage" />
