@@ -85,6 +85,7 @@
 		<pos x="4754.60" z="8044.90" a="0.000" />
 		<pos x="11169.40" z="5490.50" a="0.000" />
 		<pos x="11609.20" z="6367.20" a="0.000" />
+		<pos x="8818.40" z="6548.10" a="0.000" />
 	</event>
 	<event name="VehicleTransitBus" />
     <event name="InfectedVillage" />
