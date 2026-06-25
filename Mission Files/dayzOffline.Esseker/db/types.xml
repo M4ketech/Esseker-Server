@@ -16416,7 +16416,8 @@
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
-    <nominal>1</nominal>
+	<type name="ShippingContainerKeys_Yellow">
+		<nominal>1</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
         <min>0</min>
