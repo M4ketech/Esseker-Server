@@ -79,6 +79,9 @@
 		<pos x="8002.20" z="5561.00" a="0" />
 		<pos x="4825.80" z="5040.60" a="0" />
 		<pos x="9594.90" z="9577.90" a="0" />
+		<pos x="6826.80" z="8978.40" a="0" />
+		<pos x="9522.30" z="4793.10" a="0" />
+		<pos x="11156.10" z="9070.20" a="0" />
 	</event>
 	<event name="VehicleBoat"></event>
 	<event name="StaticAirplaneCrate">
