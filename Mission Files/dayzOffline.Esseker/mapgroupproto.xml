@@ -8457,6 +8457,18 @@
 						<point pos="3.803129 -0.592621 9.717731" range="1.199951" height="2.000000" />
 				</container>
 		</group>
+		<group name="Land_Roadblock_WoodenCrate" lootmax="3">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="3">
+						<point pos="0.240723 -0.298187 -0.605713" range="0.240601" height="0.601501" flags="32" />
+						<point pos="0.894531 -0.298187 0.057617" range="0.194336" height="0.485840" flags="32" />
+						<point pos="-0.322266 -0.298187 0.578125" range="0.214844" height="0.537109" flags="32" />
+						<point pos="0.333008 0.332375 0.000244" range="0.340625" height="0.851563" />
+						<point pos="-0.375977 0.332375 -0.061157" range="0.306250" height="0.765625" />
+						<point pos="-0.901367 -0.298187 0.490600" range="0.289420" height="0.723549" flags="32" />
+						<point pos="-0.963379 -0.298187 -0.562378" range="0.377032" height="0.942579" flags="32" />
+				</container>
+		</group>
 		<group name="Land_Village_PoliceStation" lootmax="15">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="10">
@@ -12093,6 +12105,82 @@
 						<point pos="8.260949 -8.846191 -1.812472" range="1.199951" height="2.000000" />
 				</container>
 		</group>
+		<group name="Land_Static_Mi8_Civilian" lootmax="15">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="15">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<point pos="-5.292709 0.000000 2.698875" range="1.200000" height="2.000000" flags="32" />
+						<point pos="-6.739676 0.000000 -0.693575" range="1.200000" height="1.369254" flags="32" />
+						<point pos="-4.381643 0.000000 -3.373720" range="1.200000" height="2.000000" flags="32" />
+						<point pos="-0.738392 0.000000 -2.882844" range="1.200000" height="2.000000" flags="32" />
+						<point pos="2.422888 0.000000 -3.248473" range="1.200000" height="2.000000" flags="32" />
+						<point pos="4.245002 0.000000 -0.734614" range="1.200000" height="2.000000" flags="32" />
+						<point pos="3.040225 0.000000 1.879938" range="1.200000" height="2.000000" flags="32" />
+						<point pos="-0.023482 0.000000 4.048484" range="1.200000" height="2.000000" flags="32" />
+						<point pos="-2.671984 0.000000 3.735730" range="1.200000" height="2.000000" flags="32" />
+				</container>
+		</group>
+		<group name="Land_wreck_truck01_aban1_firetruck">
+				<usage name="Firefighter" />
+				<container name="loot" lootmax="2">
+						<category name="tools" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<point pos="0.178991 1.777603 -0.826342" range="0.100000" height="0.250000" />
+						<point pos="0.381633 1.115448 0.553206" range="0.100000" height="0.250000" />
+						<point pos="2.083034 1.031906 -0.413952" range="0.100000" height="0.250000" />
+						<point pos="1.434722 1.541245 0.654206" range="0.134375" height="0.335938" />
+						<point pos="2.108092 1.085846 0.299016" range="0.134375" height="0.335938" />
+						<point pos="0.887351 1.052353 -0.238587" range="0.134375" height="0.335938" />
+						<point pos="1.444065 1.419449 -0.953826" range="0.149170" height="0.372925" />
+						<point pos="2.487872 1.533905 0.640134" range="0.168750" height="0.421875" />
+						<point pos="-0.036855 1.509811 0.172420" range="0.168750" height="0.421875" />
+						<point pos="1.987183 1.533813 0.601200" range="0.168750" height="0.421875" />
+						<point pos="2.018956 1.421936 -0.874302" range="0.175800" height="0.439500" />
+						<point pos="2.566716 1.420761 -0.845644" range="0.203125" height="0.507813" />
+						<point pos="4.790381 0.078979 -0.364150" range="0.229644" height="0.574110" flags="32" />
+						<point pos="4.709747 0.088150 -1.251402" range="0.249907" height="0.624767" flags="32" />
+						<point pos="0.004257 1.820236 -0.277648" range="0.256164" height="0.640410" />
+						<point pos="3.733394 1.059875 -0.239590" range="0.271875" height="0.679565" />
+						<point pos="2.995167 1.089127 0.411341" range="0.334987" height="0.837468" />
+						<point pos="4.119763 0.074081 -0.732355" range="0.535815" height="0.723160" flags="32" />
+						<point pos="4.375850 0.057404 1.011053" range="1.199951" height="2.011581" flags="32" />
+				</container>
+				<dispatch dechance="0.000000">
+						<proxy type="Truck_01_Wheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
+						<proxy type="Truck_01_WheelDouble" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.000000" />
+				</dispatch>
+		</group>
+		<group name="Land_wreck_truck01_aban2_firetruck">
+				<usage name="Firefighter" />
+				<container name="loot" lootmax="2">
+						<category name="tools" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<point pos="2.363181 0.994324 0.180410" range="0.100000" height="0.250000" />
+						<point pos="0.033614 1.735718 -0.669436" range="0.134375" height="0.335938" />
+						<point pos="0.014597 1.339371 0.395692" range="0.168750" height="0.421875" />
+						<point pos="1.288707 1.355286 0.870383" range="0.178955" height="0.447388" />
+						<point pos="1.596544 1.440308 -0.715002" range="0.191650" height="0.479125" />
+						<point pos="2.617455 1.395584 0.791853" range="0.203125" height="0.507813" />
+						<point pos="2.708009 1.470749 -0.710646" range="0.210938" height="0.527345" />
+						<point pos="2.031764 1.378052 0.823099" range="0.216309" height="0.540772" />
+						<point pos="2.148820 1.453857 -0.681240" range="0.233398" height="0.583495" />
+						<point pos="0.056820 1.708633 -0.094846" range="0.237500" height="0.593750" />
+						<point pos="3.312476 1.045105 -0.330585" range="0.237500" height="0.593750" />
+						<point pos="5.128334 0.000000 -1.009069" range="0.256238" height="0.640595" flags="32" />
+						<point pos="0.738581 0.947800 0.217808" range="0.523425" height="1.308562" />
+						<point pos="3.926478 0.000000 -1.636176" range="1.099121" height="2.000000" flags="32" />
+						<point pos="4.579586 0.000000 0.770815" range="1.199951" height="2.000000" flags="32" />
+				</container>
+				<dispatch dechance="0.000000">
+						<proxy type="Truck_01_Wheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.000000" />
+						<proxy type="Truck_01_WheelDouble" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.000000" />
+				</dispatch>
+		</group>
 		<group name="Wreck_UH1Y" lootmax="10">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="10">
@@ -12119,6 +12207,36 @@
 						<point pos="6.488282 -1.856918 2.621094" range="1.069595" height="1.900002" />
 						<point pos="-0.299072 -1.856918 -1.951172" range="1.199951" height="1.900002" />
 						<point pos="-0.732910 -1.856918 0.940430" range="1.199951" height="1.900002" />
+				</container>
+		</group>
+		<group name="Land_Wreck_C130J_Cargo">
+				<usage name="Military" />
+				<container name="lootFloor">
+						<category name="clothes" />
+						<tag name="floor" />
+						<tag name="ground" />
+						<point pos="-10.216827 -4.788198 -0.759033" range="0.333221" height="0.833054" />
+						<point pos="-6.367980 -4.553556 -0.754639" range="0.742432" height="1.856079" />
+						<point pos="-5.972808 -4.556667 0.800903" range="0.749146" height="1.872864" />
+						<point pos="-0.895264 -4.513454 -0.673584" range="0.768188" height="1.920471" />
+						<point pos="2.066528 -4.492989 -0.310181" range="0.925000" height="2.000000" />
+						<point pos="-4.003571 -4.537710 -0.337647" range="1.093384" height="2.000000" />
+				</container>
+				<container name="loot">
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="ground" />
+						<point pos="5.928223 -4.833448 -0.836671" range="0.409375" height="1.023438" />
+						<point pos="5.909514 -4.836582 0.714355" range="0.409375" height="1.023438" />
+						<point pos="4.918579 -4.715311 -0.710938" range="0.409375" height="1.023438" />
+						<point pos="5.039856 -4.732702 0.205566" range="0.409375" height="1.023438" />
+						<point pos="3.935394 -4.605631 0.972046" range="0.409375" height="1.023438" />
+						<point pos="3.871979 -4.592604 -0.651612" range="0.409375" height="1.023438" />
+						<point pos="0.352356 -4.509430 0.665771" range="0.834839" height="2.000000" />
+						<point pos="-2.139313 -4.527470 0.572631" range="0.884644" height="2.000002" />
+						<point pos="-7.879120 -4.568596 0.246337" range="1.070224" height="2.000002" />
+						<point pos="5.085053 -5.184137 -2.382080" range="1.117920" height="0.173845" flags="32" />
+						<point pos="5.688843 -5.184137 2.855345" range="1.199951" height="2.000000" flags="32" />
 				</container>
 		</group>
 		<group name="Land_Wreck_C130J" lootmax="10">
