@@ -2310,18 +2310,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-    <type name="Bandage">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Medic"/>
-    </type>
     <type name="BandageDressing">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
@@ -2334,61 +2322,6 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Medic"/>
-    </type>
-    <type name="BandanaMask_BlackPattern">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="clothes"/>
-    </type>
-    <type name="BandanaMask_CamoPattern">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="clothes"/>
-    </type>
-    <type name="BandanaMask_GreenPattern">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="clothes"/>
-    </type>
-    <type name="BandanaMask_PolkaPattern">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="clothes"/>
-    </type>
-    <type name="BandanaMask_RedPattern">
-        <nominal>0</nominal>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="clothes"/>
     </type>
     <type name="Bandana_Blackpattern">
         <nominal>8</nominal>
@@ -4114,6 +4047,28 @@
         <usage name="Farm"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+    </type>
+	<type name="Carp">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="food"/>
+    </type>
+    <type name="CarpFilletMeat">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="food"/>
     </type>
     <type name="CatFoodCan">
         <nominal>8</nominal>
@@ -7290,6 +7245,26 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+    </type>
+	<type name="FoxPelt">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="FoxSteakMeat">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="FryingPan">
         <nominal>20</nominal>
@@ -11325,6 +11300,28 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
+	<type name="Mackerel">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="food"/>
+    </type>
+    <type name="MackerelFilletMeat">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="food"/>
+    </type>
     <type name="MacrolepiotaMushroom">
         <nominal>0</nominal>
         <lifetime>900</lifetime>
@@ -15261,6 +15258,26 @@
         <category name="clothes"/>
         <usage name="Industrial"/>
     </type>
+	<type name="ReindeerPelt">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="ReindeerSteakMeat">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
 	<type name="RemoteDetonator">
         <nominal>3</nominal>
         <lifetime>14400</lifetime>
@@ -17377,6 +17394,26 @@
         <usage name="Village"/>
         <value name="Tier1"/>
     </type>
+	<type name="SteelheadTrout">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="SteelheadTroutFilletMeat">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
     <type name="Stone">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -18863,6 +18900,26 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+    </type>
+	 <type name="WalleyePollock">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="WalleyePollockFilletMeat">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="Watchtower">
         <nominal>0</nominal>
